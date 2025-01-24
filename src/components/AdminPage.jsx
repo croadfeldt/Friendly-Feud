@@ -17,7 +17,7 @@ import Link from "next/link";
 function TitleMusic() {
   const { i18n, t } = useTranslation();
   return (
-    <div className="flex flex-row items-center space-x-5  p-5">
+    <div className={"flex flex-row items-center space-x-5 p-5 hidden"}>
       <h3 className="text-2xl text-foreground">{t("Title Music")}</h3>
       <audio controls id="titleMusicAudio">
         <source src="title.mp3" type="audio/mpeg" />
@@ -205,7 +205,7 @@ function TitleLogoUpload(props) {
     );
   } else {
     return (
-      <div className="flex flex-row items-center space-x-2">
+      <div className="flex flex-row items-center space-x-2 hidden">
         <div className="image-upload">
           <label htmlFor="logoUpload">
             <FileUp className="cursor-pointer text-secondary-900 hover:text-secondary-500" size={38} />
@@ -490,10 +490,10 @@ export default function AdminPage(props) {
           </div>
         </div>
 
-        <hr className="my-12" />
+        <hr className="my-12 hidden" />
         <div className="flex flex-col items-center space-y-5">
           <div className="grid grid-cols-2 gap-x-48 gap-y-10">
-            <div className="flex flex-row justify-between space-x-5">
+            <div className="flex flex-row justify-between space-x-5 hidden">
               {/* TITLE TEXT INPUT */}
               <div className="flex flex-row items-center space-x-5">
                 <p className="text-2xl text-foreground">{t("Title Text")}:</p>
@@ -585,7 +585,7 @@ export default function AdminPage(props) {
             {error.code ? t(error.code, { message: error.message }) : t(error)}
           </div>
         </div>
-        <hr className="my-12" />
+        <hr className="my-12 hidden" />
         {/* ADMIN CONTROLS */}
         <AdminSettings game={game} setGame={props.setGame} send={send} />
         {/* SHOW ERRORS TO ADMIN */}

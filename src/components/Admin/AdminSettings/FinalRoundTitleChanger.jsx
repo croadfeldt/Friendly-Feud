@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 function FinalRoundTitleChanger({ game, setGame, send }) {
   const { t } = useTranslation();
   return (
-    <div className="flex flex-row items-center space-x-5">
+    <div className="flex flex-row items-center space-x-5 hidden">
       <p className="text-xl text-foreground">{t("Final Round Title")}:</p>
       <input
         id="finalRoundTitleChangerInput"

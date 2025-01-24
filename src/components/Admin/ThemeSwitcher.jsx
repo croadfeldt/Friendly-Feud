@@ -58,7 +58,7 @@ const ThemeSwitcher = ({ game, setGame, send }) => {
   };
 
   return (
-    <div className="flex flex-row items-center space-x-5">
+    <div className="flex flex-row items-center space-x-5 hidden">
       <Palette color="gray" />
       <select
         id="themeSwitcherInput"

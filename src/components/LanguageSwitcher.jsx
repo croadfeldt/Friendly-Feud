@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 export default function LanguageSwitcher(props) {
   const { i18n, t } = useTranslation();
   return (
-    <div className="flex items-center gap-4 ">
+    <div className="flex items-center gap-4 hidden">
       <Languages color="gray" />
       <select
         id="languageInput"
