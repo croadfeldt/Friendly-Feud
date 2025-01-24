@@ -1,8 +1,8 @@
-const Team = ({ team, players }) => {
+const Team = ({ team, points, players }) => {
   return (
     <div className="flex h-full flex-col overflow-hidden rounded-xl bg-secondary-500 text-center shadow-lg">
       <p className="rounded-t-xl bg-secondary-700 py-2 text-4xl font-bold text-foreground shadow-sm" id="team-name">
-        {team}
+        {team} - {points}
       </p>
       <div className="relative min-h-0 flex-1">
         <div className="absolute inset-0 overflow-y-auto">

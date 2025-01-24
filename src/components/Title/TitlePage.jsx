@@ -84,9 +84,9 @@ export default function TitlePage(props) {
           transition: "width 2s",
         }}
       >
-        <Team team={props.game.teams[0].name} players={returnTeamMates(0)} />
+        <Team team={props.game.teams[0].name} points={props.game.teams[0].points} players={returnTeamMates(0)} />
         <RoomCode code={props.game.room} />
-        <Team team={props.game.teams[1].name} players={returnTeamMates(1)} />
+        <Team team={props.game.teams[1].name} points={props.game.teams[1].points} players={returnTeamMates(1)} />
       </div>
     </div>
   );
