@@ -106,18 +106,18 @@ func NewGame(roomCode string) room {
 			Buzzed:            []buzzed{},
 			Settings: settings{
 				LogoUrl:         nil,
-				HideQuestions:   true,
+				HideQuestions:   false,
 				Theme:           "default",
 				FinalRoundTitle: nil,
 			},
 			Teams: []team{
 				{
-					Name:     "Team 1",
+					Name:     "Team Emacs",
 					Points:   0,
 					Mistakes: 0,
 				},
 				{
-					Name:     "Team 2",
+					Name:     "Team Vim",
 					Points:   0,
 					Mistakes: 0,
 				},
