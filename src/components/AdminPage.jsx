@@ -842,7 +842,7 @@ export default function AdminPage(props) {
                           send({ action: "data", data: game });
                         }}
                       >
-                        <div className="grow">{x.ans}</div>
+                        <div className="grow">{x.ans}{x.alt ? " (" + x.alt + ")" : ""}</div>
                         <div id={`answer${index}PointsText`} className="p-2">
                           {t("number", { count: x.pnt })}
                         </div>

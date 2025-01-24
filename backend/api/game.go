@@ -43,6 +43,7 @@ type team struct {
 type answer struct {
 	Triggered bool   `json:"trig"`
 	Answer    string `json:"ans"`
+        AltAns    string `json:"alt"`
 	Points    int    `json:"pnt"`
 }
 
