@@ -48,7 +48,7 @@ export default function Round(props) {
       </div>
       <div className="flex flex-row justify-center">
         {props.game.settings.hide_questions === false ? (
-          <p id="roundQuestionText" className="sm:text-1xl text-end text-2xl text-foreground">
+          <p id="roundQuestionText" className="sm:text-1xl text-center text-2xl text-foreground">
             {round.question}
           </p>
         ) : (
