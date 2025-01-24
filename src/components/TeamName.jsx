@@ -11,7 +11,7 @@ export default function TeamName(props) {
       <div className="bg-gradient-to-tr from-myred-900 to-myred-500">
         <p
           id={`team${props.team}TeamName`}
-          className="p-5 uppercase text-white"
+          className="p-5 text-white"
           style={{
             fontWeight: 600,
             whiteSpace: "nowrap",
