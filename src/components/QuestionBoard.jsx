@@ -16,16 +16,16 @@ export default function QuestionBoard(props) {
           >
             {x.trig ? (
               // answered question
-              <div className="h-full bg-gradient-to-t from-primary-900 via-primary-500 to-primary-700">
+              <div className="h-full bg-gradient-to-t from-myred-900 via-myred-500 to-myred-700">
                 <div className="flex h-full items-center justify-center">
                   <p
                     id={`answer${index}Answered`}
-                    className="grow px-5 text-2xl text-white"
+                    className="grow px-5 text-4xl text-white"
                     style={{ textShadow: "1px 2px 4px black" }}
                   >
                     {x.ans}
                   </p>
-                  <div className="flex h-full items-center justify-center border-l-2 bg-gradient-to-t from-primary-700 to-primary-500 p-5 text-center">
+                  <div className="flex h-full items-center justify-center border-l-2 bg-gradient-to-t from-myred-700 to-myred-500 p-5 text-center">
                     <p
                       className="text-4xl text-white"
                       style={{ textShadow: "1px 2px 4px black" }}
@@ -38,9 +38,9 @@ export default function QuestionBoard(props) {
               </div>
             ) : (
               // unanswered question
-              <div className="flex h-full items-center justify-center bg-gradient-to-t from-primary-700 to-primary-500 py-3 ">
+              <div className="flex h-full items-center justify-center bg-gradient-to-t from-myred-700 to-myred-500 py-3 ">
                 <div
-                  className="inline-block items-center justify-center rounded-full border-2 bg-gradient-to-tr from-primary-900 to-primary-700
+                  className="inline-block items-center justify-center rounded-full border-2 bg-gradient-to-tr from-myred-900 to-myred-700
                       px-5 py-2"
                   style={{ boxShadow: "3px 3px 2px black" }}
                 >

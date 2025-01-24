@@ -51,7 +51,7 @@ export default function TitlePage(props) {
   }
 
   return (
-    <div className="min-w-screen flex min-h-screen flex-col items-center justify-center bg-gradient-to-t from-primary-900 via-primary-200 to-primary-900 py-5">
+    <div className="min-w-screen flex min-h-screen flex-col items-center justify-center bg-gradient-to-t from-primary-900 via-primary-700 to-primary-900 py-5">
       {/* Logo Section */}
       <div
         style={{

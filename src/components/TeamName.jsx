@@ -8,7 +8,7 @@ export default function TeamName(props) {
         minWidth: 0,
       }}
     >
-      <div className="bg-gradient-to-tr from-primary-900 to-primary-500">
+      <div className="bg-gradient-to-tr from-myred-900 to-myred-500">
         <p
           id={`team${props.team}TeamName`}
           className="p-5 uppercase text-white"
