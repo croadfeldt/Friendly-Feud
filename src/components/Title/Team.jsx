@@ -9,7 +9,7 @@ const Team = ({ team, players }) => {
           <div className="flex flex-row flex-wrap justify-center px-2">
             {players.map((m, index) => (
               <div key={`${m}-${index}`} className="m-2 w-20 rounded-lg bg-primary-200 p-2 xl:w-28">
-                <p className="truncate font-bold text-foreground">{m}</p>
+                <p className="truncate font-bold uppercase text-foreground">{m}</p>
               </div>
             ))}
           </div>
