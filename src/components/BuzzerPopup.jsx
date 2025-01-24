@@ -77,7 +77,7 @@ const BuzzerPopup = ({ buzzed }) => {
           <div className="text-4xl font-bold">{t("First Buzzer")}</div>
           <hr className="my-2 w-full border-t-2 border-warning-500" />
           <div className="w-full text-center text-2xl">
-            <span className="font-semibold">{buzzed.name}</span>
+            <span className="font-semibold uppercase">{buzzed.name}</span>
             {typeof buzzed.team !== "undefined" && <span className="ml-2">| {buzzed.team}</span>}
           </div>
         </div>
