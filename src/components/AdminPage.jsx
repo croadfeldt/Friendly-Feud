@@ -843,7 +843,7 @@ export default function AdminPage(props) {
                         }}
                       >
                         <div className="grow">{x.ans}{x.alt ? " (" + x.alt + ")" : ""}</div>
-                        <div id={`answer${index}PointsText`} className="p-2">
+                        <div id={`answer${index}PointsText`} className="bg-primary-200 p-2">
                           {t("number", { count: x.pnt })}
                         </div>
                       </button>
