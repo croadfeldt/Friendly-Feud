@@ -1,0 +1,107 @@
+{
+  "rounds": [
+    {
+      "question": "Name a key ROI capability or measurable outcome for customers seeking to adopt Red Hat automation products and solutions?",
+      "answers": [
+        {
+          "ans": "Reduced operating costs",
+          "alt": "MONEY BUDGET COST SAVINGS",
+          "pnt": 33
+        },
+        {
+          "ans": "Reduced Toil",
+          "alt": "REDUCED-MANUAL-PROCESS ELIMINATE-HUMAN-ERRORS",
+          "pnt": 25
+        },
+        {
+          "ans": "Enhanced Security",
+          "alt": "AUDIT RISK",
+          "pnt": 15
+        },
+        {
+          "ans": "Federated automation",
+          "alt": "BUSINESS-ACCESS DEV-ACCESS SELF-SERVICE AUTOMATION-PORTAL",
+          "pnt": 13
+        },
+        {
+          "ans": "Event-driven automation",
+          "alt": "ANSIBLE-EDA CONVERGENCE CONFIG-MGT DRIFT-MGT",
+          "pnt": 8
+        },
+        {
+          "ans": "Reduced time to market",
+          "alt": "AGILITY SPEED FASTER-PROVISIONING",
+          "pnt": 6
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Name a key ROI capability or measurable outcome for customers seeking to adopt Red Hat virtualization products and solutions?",
+      "answers": [
+        {
+          "ans": "VMware elimination",
+          "alt": "BROADCOM FIX-LOCK-IN COST SAVINGS",
+          "pnt": 66
+        },
+        {
+          "ans": "Automated VM migration",
+          "alt": "MIGRATION-TOOLKIT MTV",
+          "pnt": 19
+        },
+        {
+          "ans": "Workload management",
+          "alt": "OPS-EFFICIENCY SINGLE-CONTROL-PLANE MONITORING",
+          "pnt": 9
+        },
+        {
+          "ans": "Self-service provisioning",
+          "alt": "IAAS AGILITY DEV-EXPERIENCE CI/CD",
+          "pnt": 6
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Name a key motivator for customer stakeholders to engage Red Hat for help with their current IT initiatives?",
+      "answers": [
+        {
+          "ans": "Regulatory compliance",
+          "alt": "AUDIT SECURITY RISK",
+          "pnt": 30
+        },
+        {
+          "ans": "Rising IT costs",
+          "alt": "MONEY BUDGET COST SAVINGS LOCK-IN BROADCOM VMWARE",
+          "pnt": 24
+        },
+        {
+          "ans": "Platform oversubscription challenges",
+          "alt": "SCALE CAPACITY",
+          "pnt": 15
+        },
+        {
+          "ans": "End-of-life",
+          "alt": "LIFECYCLE ELS RHEL-UPGRADES",
+          "pnt": 13
+        },
+        {
+          "ans": "Incentivizing developer adoption",
+          "alt": "DEV-EXPERIENCE DEVOPS CI/CD",
+          "pnt": 11
+        },
+        {
+          "ans": "Long delivery times",
+          "alt": "AGILITY SPEED TIME-TO-MARKET SLOW-PROVISIONING BROKEN-PROCESSES",
+          "pnt": 7
+        }
+      ],
+      "multiply": 1
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25
+  ]
+}
+
