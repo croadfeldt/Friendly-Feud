@@ -31,7 +31,7 @@ const BuzzerTable = ({ game }) => {
             </td>
 
             <td id={`playerBuzzer${index}BuzzerTimeText`} className="text-left text-foreground">
-              {((buzz.time - game.round_start_time) / 1000).toFixed(2)}s
+              {index > 0 ? "+" + t("number", { count: (buzz.time - game.buzzed[index - 1].time) }) + "ms" : ((buzz.time - game.round_start_time) / 1000).toFixed(3) + "s"}
             </td>
           </tr>
         ))}
