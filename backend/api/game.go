@@ -107,7 +107,7 @@ func NewGame(roomCode string) room {
 			Buzzed:            []buzzed{},
 			Settings: settings{
 				LogoUrl:         nil,
-				HideQuestions:   false,
+				HideQuestions:   true,
 				Theme:           "default",
 				FinalRoundTitle: nil,
 			},

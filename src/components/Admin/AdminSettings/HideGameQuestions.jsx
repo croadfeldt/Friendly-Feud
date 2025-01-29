@@ -5,6 +5,7 @@ function HideGameQuestions({ game, setGame, send }) {
 
   return (
     <div className="flex flex-col">
+      <label for="hideQuestionsInput">
       <div className="flex flex-row items-center space-x-5">
         <div>
           <p className="text-xl normal-case text-foreground">{t("Hide questions")}:</p>
@@ -26,6 +27,7 @@ function HideGameQuestions({ game, setGame, send }) {
           {t("hide questions on the game window and player buzzer screens")}
         </p>
       </div>
+      </label>
     </div>
   );
 }
