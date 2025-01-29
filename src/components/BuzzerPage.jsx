@@ -146,15 +146,11 @@ export default function BuzzerPage(props) {
             aria-hidden={!showMistake}
           />
         </div>
-        <button
-          id="quitButton"
-          className="text-1xl z-50 w-24 self-end rounded-lg bg-secondary-900 p-2 font-bold uppercase shadow-md hover:bg-secondary-300"
-          onClick={() => {
-            send({ action: "quit" });
-          }}
+        <div
+          className="text-1xl z-50 w-24 self-end rounded-lg bg-background p-2 font-bold uppercase shadow-md"
         >
-          {t("quit")}
-        </button>
+          &nbsp;
+        </div>
         {props.id in game.registeredPlayers && game.registeredPlayers[props.id].team !== null ? (
           <>
             {!game.title && !game.is_final_round ? (
