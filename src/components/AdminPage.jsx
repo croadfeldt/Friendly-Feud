@@ -615,6 +615,8 @@ export default function AdminPage(props) {
                     game.is_final_round = false;
                     game.is_final_second = false;
                     props.setGame((prv) => ({ ...prv }));
+                    game.settings.hide_questions = true;
+                    document.getElementById("hideQuestionsInput").checked = true;
                     send({ action: "data", data: game });
                   }}
                 >
@@ -660,6 +662,8 @@ export default function AdminPage(props) {
                       color: "bg-success-500",
                       textColor: "text-foreground",
                     });
+                    game.settings.hide_questions = true;
+                    document.getElementById("hideQuestionsInput").checked = true;
                     send({ action: "data", data: game });
                   }}
                 >
@@ -688,6 +692,8 @@ export default function AdminPage(props) {
                       color: "bg-success-500",
                       textColor: "text-foreground",
                     });
+                    game.settings.hide_questions = true;
+                    document.getElementById("hideQuestionsInput").checked = true;
                     send({ action: "data", data: game });
                   }}
                 >
@@ -714,6 +720,8 @@ export default function AdminPage(props) {
                       textColor: "text-foreground",
                     });
                     console.debug(game.round);
+                    game.settings.hide_questions = true;
+                    document.getElementById("hideQuestionsInput").checked = true;
                     send({ action: "data", data: game });
                   }}
                 >
@@ -723,6 +731,9 @@ export default function AdminPage(props) {
                   id="showMistakeButton"
                   className="flex grow flex-row items-center justify-center rounded border-4 bg-secondary-300 p-10 text-2xl text-foreground"
                   onClick={() => {
+                    game.settings.hide_questions = false;
+                    document.getElementById("hideQuestionsInput").checked = false;
+                    send({ action: "data", data: game });
                     send({ action: "show_mistake" });
                   }}
                 >
@@ -839,6 +850,8 @@ export default function AdminPage(props) {
                             }
                             props.setGame((prv) => ({ ...prv }));
                           }
+                          game.settings.hide_questions = false;
+                          document.getElementById("hideQuestionsInput").checked = false;
                           send({ action: "data", data: game });
                         }}
                       >
