@@ -780,7 +780,7 @@ export default function AdminPage(props) {
                       <h3 id="pointsText" className="text-xl  text-foreground">
                         {t("Points")}:{" "}
                       </h3>
-                      <h3 id="pointsNumberText" className="grow text-2xl  text-foreground">
+                      <h3 id="pointsNumberText" className="grow text-2xl font-extrabold text-foreground">
                         {t("number", { count: game.point_tracker[game.round] })}
                       </h3>
                     </div>
@@ -817,7 +817,7 @@ export default function AdminPage(props) {
                       key={`answer-${index}`}
                       className={`${
                         x.trig ? "bg-secondary-500" : "bg-primary-700"
-                      } rounded border-2 text-2xl font-extrabold uppercase`}
+                      } rounded border-2 text-2xl uppercase`}
                     >
                       <button
                         className="flex min-h-full min-w-full flex-row items-center justify-center p-5"
@@ -842,8 +842,11 @@ export default function AdminPage(props) {
                           send({ action: "data", data: game });
                         }}
                       >
-                        <div className="grow">{x.ans}{x.alt ? " (" + x.alt + ")" : ""}</div>
-                        <div id={`answer${index}PointsText`} className="bg-primary-200 p-2">
+                        <div className="grow">
+                          <p className="font-extrabold">{x.ans}</p>
+                          <p className="font-medium">{x.alt ? x.alt : ""}</p>
+                        </div>
+                        <div id={`answer${index}PointsText`} className="font-extrabold bg-primary-200 p-2">
                           {t("number", { count: x.pnt })}
                         </div>
                       </button>
