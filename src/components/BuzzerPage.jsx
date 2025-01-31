@@ -206,21 +206,18 @@ export default function BuzzerPage(props) {
                         className="text-1xl flex flex-row space-x-2 md:text-2xl lg:text-2xl"
                       >
                         <div className="grow">
-                          <p id={`buzzedList${i}Name`} className="w-20 truncate text-left text-foreground">
+                          <p id={`buzzedList${i}Name`} className="w-40 truncate text-left text-foreground uppercase">
                             {t("number", { count: i + 1 })}. {game.registeredPlayers[x.id].name}
                           </p>
                         </div>
                         <div className="grow">
-                          <p id={`buzzedList${i}TeamName`} className="w-20 truncate text-left text-foreground">
+                          <p id={`buzzedList${i}TeamName`} className="w-40 truncate text-left text-foreground">
                             {game.teams[game.registeredPlayers[x.id].team].name}
                           </p>
                         </div>
                         <div className="grow">
-                          <p id={`buzzedList${i}Time`} className="w-20 truncate text-left text-foreground">
-                            {t("number", {
-                              count: (((x.time - game.tick) / 1000) % 60).toFixed(2),
-                            })}{" "}
-                            {t("second")}
+                          <p id={`buzzedList${i}Time`} className="w-40 truncate text-left text-foreground">
+                            {i > 0 ? t("number", { count: (x.time - game.buzzed[i - 1].time) }) + "ms" : "0ms"}
                           </p>
                         </div>
                       </div>
