@@ -1,0 +1,158 @@
+{
+  "rounds": [
+    {
+      "question": "Name a winning outcome for customers adopting a Red Hat automation solution?",
+      "answers": [
+        {
+          "ans": "Quicker provisioning",
+          "alt": "AGILITY SPEED FASTER TIME-TO-MARKET DAYS-TO-HOURS/MINUTES",
+          "pnt": 46
+        },
+        {
+          "ans": "Reduced Toil",
+          "alt": "HEADACHE PAIN PATCHING REDUCED-MANUAL-OPS FEWER-HUMAN-ERRORS",
+          "pnt": 21
+        },
+        {
+          "ans": "Lower operating costs",
+          "alt": "MONEY BUDGET COST OPEX SAVINGS",
+          "pnt": 12
+        },
+        {
+          "ans": "Enhanced Security",
+          "alt": "AUDIT RISK COMPLIANCE",
+          "pnt": 9
+        },
+        {
+          "ans": "Event-driven Automation",
+          "alt": "ANSIBLE-EDA CONVERGENCE CONFIG-MGT DRIFT-MGT",
+          "pnt": 6
+        },
+        {
+          "ans": "Federated automation",
+          "alt": "BUSINESS-ACCESS DEV-ACCESS SELF-SERVICE AUTOMATION-PORTAL",
+          "pnt": 4
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Name a reason customers are moving to Red Hat products and solutions for virtualization?",
+      "answers": [
+        {
+          "ans": "Reduce VMware costs",
+          "alt": "BROADCOM LOCK-IN MONEY COST SAVINGS",
+          "pnt": 62
+        },
+        {
+          "ans": "Automated VM migration",
+          "alt": "MIGRATION-TOOLKIT MTV",
+          "pnt": 16
+        },
+        {
+          "ans": "Single management platform",
+          "alt": "OPS-EFFICIENCY SINGLE-CONTROL-PLANE MONITORING",
+          "pnt": 9
+        },
+        {
+          "ans": "Increased operational efficiency",
+          "alt": "IAAS AGILITY DEV-EXPERIENCE CI/CD",
+          "pnt": 6
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "What is a benefit customers experience by partnering with Red Hat on their hybrid cloud journey?",
+      "answers": [
+        {
+          "ans": "Reduced toil",
+          "alt": "HEADACHE PAIN EFFICIENCY PRODUCTIVITY FLEXIBILITY CONSISTENCY",
+          "pnt": 34
+        },
+        {
+          "ans": "Optimize cost",
+          "alt": "MONEY SAVINGS ",
+          "pnt": 30
+        },
+        {
+          "ans": "Faster workload provisioning",
+          "alt": "SPEED TIME-TO-MARKET BURST QUICKLY-SCALE",
+          "pnt": 12
+        },
+        {
+          "ans": "Unified Environment",
+          "alt": "MUTLI-CLOUD ON-PREM-AND-PUBLIC",
+          "pnt": 4
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Name a benefit customers enjoy by using Red Hat AI platforms.",
+      "answers": [
+        {
+          "ans": "Reduced Time-to-Market",
+          "alt": "AGILITY SPEED TIME-SAVING",
+          "pnt": 34
+        },
+        {
+          "ans": "More accurate results",
+          "alt": "CUST/USER-SATISFACTION FINE-TUNING/RAG-EASIER PURPOSE-BUILT-MODELS",
+          "pnt": 27
+        },
+        {
+          "ans": "Mature AI models",
+          "alt": "DATA-SCI DEVELOPER AI-APP-DEV ON-DEMAND",
+          "pnt": 17
+        },
+        {
+          "ans": "Data sovereignty",
+          "alt": "SECURITY SAFETY PRIVACY ON-PREM SSO ",
+          "pnt": 6
+        }
+      ],
+      "multiply": 1
+    },
+    {
+      "question": "Name a reason decision makers engage Red Hat for help with their IT challenges.",
+      "answers": [
+        {
+          "ans": "Regulatory compliance",
+          "alt": "AUDIT SECURITY RISK",
+          "pnt": 30
+        },
+        {
+          "ans": "Rising IT costs",
+          "alt": "MONEY BUDGET COST SAVINGS LOCK-IN BROADCOM VMWARE",
+          "pnt": 22
+        },
+        {
+          "ans": "Platform oversubscription",
+          "alt": "SCALE CAPACITY GROWTH",
+          "pnt": 14
+        },
+        {
+          "ans": "End of Life",
+          "alt": "LIFECYCLE ELS RHEL-UPGRADES TECH-DEBT",
+          "pnt": 13
+        },
+        {
+          "ans": "Incentivize developer adoption",
+          "alt": "DEV-EXPERIENCE DEVOPS CI/CD EMPTY-CLUSTER-SYNDROME",
+          "pnt": 11
+        },
+        {
+          "ans": "Long delivery times",
+          "alt": "AGILITY SPEED TIME-TO-MARKET SLOW-PROVISIONING BROKEN-PROCESSES",
+          "pnt": 7
+        }
+      ],
+      "multiply": 2
+    }
+  ],
+  "final_round_timers": [
+    20,
+    25 
+  ]
+}
